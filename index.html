@@ -1,11 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="./js/index.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
+
 <body>
-    <h1>Hello World</h1>
+
+    <section class="register-students">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="mb-3">
+                        <label for="username" class="form-label">Email address</label>
+                        <input type="text" class="form-control" id="username" placeholder="name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="userage" class="form-label">Example textarea</label>
+                        <input type="number" class="form-control" id="userage" placeholder="age">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="pasport-seria" class="form-label">Passport seria</label>
+                        <select class="form-select" id="pasport-seria">
+                            <option value="AC">AC</option>
+                            <option value="AD">AD</option>
+                            <option value="AE">AE</option>
+
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="pasport-number" class="form-label">Example textarea</label>
+                        <input type="number" class="form-control" id="pasport-number"
+                            placeholder="number Passport">
+                    </div>
+
+                    <div class="mb-3">
+                        <button class="btn btn-success">Add</button>
+                    </div>
+                </div>
+            </div>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Name</th>
+                        <th scope="col" colspan="2">Passport</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>username</td>
+                        <td>Seria</td>
+                        <td>number pasport</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
 </body>
+
 </html>

@@ -1,0 +1,64 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Khaetbek Akhmadzhonov",
+      "age": 20,
+      "pasport": {
+        "seria": "AC",
+        "number": 1234567
+      }
+    },
+    {
+      "id": 2,
+      "name": "Khaetbek Akhmadzhonov",
+      "age": 20,
+      "pasport": {
+        "seria": "AC",
+        "number": 1234567
+      }
+    },
+    {
+      "age": 0,
+      "pasport": {
+        "seria": null,
+        "number": null
+      },
+      "id": 3
+    },
+    {
+      "age": 0,
+      "name": "Afruz",
+      "pasport": {
+        "seria": null,
+        "number": null
+      },
+      "id": 4
+    },
+    {
+      "age": 0,
+      "pasport": {
+        "seria": null,
+        "number": null
+      },
+      "id": 5
+    },
+    {
+      "age": 0,
+      "pasport": {
+        "seria": null,
+        "number": null
+      },
+      "id": 6
+    },
+    {
+      "age": 0,
+      "name": "Ulugbek",
+      "pasport": {
+        "seria": null,
+        "number": null
+      },
+      "id": 7
+    }
+  ]
+}
